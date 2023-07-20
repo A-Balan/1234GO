@@ -27,7 +27,7 @@
     --bs-btn-bg: var(--ab-theme-600);
     --bs-btn-border-color: var(--ab-theme-600);
     --bs-btn-hover-bg: var(--ab-theme-700);
-    --bs-btn-hover-color: var(--ab-theme-700);
+   
 }
 
 .navbar,
@@ -83,4 +83,8 @@ footer {
 .devicons {
     font-size: 3.5rem;
     padding-left: .2rem;
+}
+
+.even {
+    font-weight: bold;
 }
