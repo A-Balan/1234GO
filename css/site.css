@@ -27,11 +27,13 @@
     --bs-btn-bg: var(--ab-theme-600);
     --bs-btn-border-color: var(--ab-theme-600);
     --bs-btn-hover-bg: var(--ab-theme-700);
+    --bs-btn-hover-border-color: yellow;
+    --bs-btn-hover-color: yellow;
    
 }
 
 .navbar,
-.footer {
+.footer{
 background-color: var(--ab-theme-800);
 }
 
@@ -63,7 +65,7 @@ footer {
 .socialicons {
     font-size: 1.5rem;
     padding-left: .5rem;
-    color: var(--ab-theme-700);
+    color: #A7ACB2;
     transition: color 0.2s;
 }
 
@@ -87,4 +89,9 @@ footer {
 
 .even {
     font-weight: bold;
+}
+
+.hundredimg {
+    border-radius: 30px;
+    max-width: 400px;
 }
